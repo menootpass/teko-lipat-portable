@@ -31,8 +31,8 @@ export default function Home() {
             <div class="md:w-1/2 md:pl-6 mt-4 md:mt-0">
               <h1 class="text-2xl font-bold">{namaProduk}</h1>
               <div class="mt-2">
-                <span class="text-gray-500 line-through">{harga[0]}</span>
-                <span class="text-red-500 text-2xl font-bold">{harga[1]}</span>
+                <span class="text-gray-500 line-through">Rp. {harga[0]}</span>
+                <span class="text-red-500 text-2xl font-bold">Rp. {harga[1]}</span>
               </div>
               <p class="mt-4 text-gray-700">{Deskripsi}</p>
               <p
