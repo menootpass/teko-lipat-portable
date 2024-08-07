@@ -85,6 +85,7 @@ export default function Home() {
                 ))}
               </Slider>
             </div>
+<<<<<<< HEAD
             <div className="md:w-1/2 md:pl-6 mt-4 md:mt-0">
               <h1 className="text-2xl font-bold">{namaProduk}</h1>
               <div className="mt-2">
@@ -94,6 +95,13 @@ export default function Home() {
                 <span className="text-red-500 text-2xl font-bold">
                   Rp. {harga[1]}
                 </span>
+=======
+            <div class="md:w-1/2 md:pl-6 mt-4 md:mt-0">
+              <h1 class="text-2xl font-bold">{namaProduk}</h1>
+              <div class="mt-2">
+                <span class="text-gray-500 line-through">Rp. {harga[0]}</span>
+                <span class="text-red-500 text-2xl font-bold">Rp. {harga[1]}</span>
+>>>>>>> 15c64d55febfd77d4fc6af03ce2d29d61ac60a48
               </div>
               <p className="mt-4 text-gray-700">{Deskripsi}</p>
               <p
